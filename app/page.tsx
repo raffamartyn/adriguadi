@@ -84,7 +84,7 @@ export default function Home() {
       )
       .join("%0A");
 
-    const url = `https://wa.me/5491123456789?text=Pedido:%0A${message}%0ATotal:$${getTotal()}`;
+    const url = `https://wa.me/3874024408?text=Pedido:%0A${message}%0ATotal:$${getTotal()}`;
 
     window.open(url, "_blank");
   };
@@ -122,13 +122,13 @@ export default function Home() {
           ADRIGUADI
         </h1>
 
-        <div className="w-16 h-[1px] bg-[#d4af37] my-4" />
+        <div className="w-16 h-1px bg-[#d4af37] my-4" />
 
         <p className="text-gray-300 text-sm tracking-widest">
           ALTA COCINA
         </p>
         <div className="flex gap-6 mt-6 text-[#d4af37]">
-  <a href="https://wa.me/5491123456789" target="_blank">
+  <a href="https://wa.me/3874024408" target="_blank">
     <img
       src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
       className="w-8 h-8"
@@ -136,7 +136,7 @@ export default function Home() {
     />
   </a>
 
-  <a href="https://maps.google.com/?q=TU+DIRECCION" target="_blank">
+  <a href="https://maps.google.com/?q=El Chaja 1705, A4400 Salta" target="_blank">
     <img
       src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlemaps.svg"
       className="w-8 h-8"
@@ -144,7 +144,7 @@ export default function Home() {
     />
   </a>
 
-  <a href="https://facebook.com/TU_PAGINA" target="_blank">
+  <a href="https://www.facebook.com/share/1CWciP4UtV/" target="_blank">
     <img
       src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
       className="w-8 h-8"
