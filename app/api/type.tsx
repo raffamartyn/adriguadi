@@ -6,3 +6,9 @@ export interface Menus {
     IMAGEN: string;
     LINK: string;
 }
+export interface plantilla {
+  ID_PLANTILLA: string;
+  NOMBRE: string;
+  IMAGEN: string;
+  LINK: string;
+}

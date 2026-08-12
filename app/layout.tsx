@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ADRIGUADI",
-  description: "MENU ECONOMICOS",
+  description: "MENUS",
 };
 
 export default function RootLayout({
