@@ -368,9 +368,13 @@ export default function Home() {
           <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
 
             {menuItems.map((item, index) => {
-              const imageUrl = encodeURI(
-                `${item.LINK}/${item.IMAGEN}`
-              );
+  const linkLimpio = item.LINK?.trim() ?? "";
+
+  const imageUrl =
+    linkLimpio.startsWith("https://") ||
+    linkLimpio.startsWith("http://")
+      ? encodeURI(linkLimpio)
+      : "/sin-imagen.png";
 
               return (
                 <motion.article
